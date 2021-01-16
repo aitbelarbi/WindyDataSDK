@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WindyDataSDK"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "A short description of WindyDataSDK."
 
 
@@ -115,6 +115,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "Alamofire"
 
 end
