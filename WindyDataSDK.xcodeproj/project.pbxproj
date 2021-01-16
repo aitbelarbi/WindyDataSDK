@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1322504D25B379A700F6F59D /* WindyDataSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322504325B379A700F6F59D /* WindyDataSDK.framework */; };
 		1322505225B379A700F6F59D /* WindyDataSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322505125B379A700F6F59D /* WindyDataSDKTests.swift */; };
 		1322505425B379A700F6F59D /* WindyDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1322504625B379A700F6F59D /* WindyDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1322506825B37CBF00F6F59D /* CitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322506725B37CBF00F6F59D /* CitiesModel.swift */; };
+		1322507125B37D8900F6F59D /* WindyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322507025B37D8900F6F59D /* WindyService.swift */; };
+		1B40D3784FA58BC8F810AD6D /* Pods_WindyDataSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3C912965F7B22683D935D2 /* Pods_WindyDataSDK.framework */; };
+		4959F4B86044D733B4B9B7A7 /* Pods_WindyDataSDK_WindyDataSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F686752FA4890A6AE6D299 /* Pods_WindyDataSDK_WindyDataSDKTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08A03022A7621DBC0E5B4A8E /* Pods-WindyDataSDK-WindyDataSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyDataSDK-WindyDataSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-WindyDataSDK-WindyDataSDKTests/Pods-WindyDataSDK-WindyDataSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1322504325B379A700F6F59D /* WindyDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WindyDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1322504625B379A700F6F59D /* WindyDataSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindyDataSDK.h; sourceTree = "<group>"; };
 		1322504725B379A700F6F59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1322504C25B379A700F6F59D /* WindyDataSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindyDataSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1322505125B379A700F6F59D /* WindyDataSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindyDataSDKTests.swift; sourceTree = "<group>"; };
 		1322505325B379A700F6F59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1322506725B37CBF00F6F59D /* CitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesModel.swift; sourceTree = "<group>"; };
+		1322507025B37D8900F6F59D /* WindyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindyService.swift; sourceTree = "<group>"; };
+		26839F4B3F70779F86458F32 /* Pods-WindyDataSDK-WindyDataSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyDataSDK-WindyDataSDKTests.release.xcconfig"; path = "Target Support Files/Pods-WindyDataSDK-WindyDataSDKTests/Pods-WindyDataSDK-WindyDataSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CEB8B00D84E7E6B8D77090D /* Pods-WindyDataSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyDataSDK.debug.xcconfig"; path = "Target Support Files/Pods-WindyDataSDK/Pods-WindyDataSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3C912965F7B22683D935D2 /* Pods_WindyDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindyDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F686752FA4890A6AE6D299 /* Pods_WindyDataSDK_WindyDataSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindyDataSDK_WindyDataSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DC565DA3B421CF18BFDC71 /* Pods-WindyDataSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyDataSDK.release.xcconfig"; path = "Target Support Files/Pods-WindyDataSDK/Pods-WindyDataSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B40D3784FA58BC8F810AD6D /* Pods_WindyDataSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1322504D25B379A700F6F59D /* WindyDataSDK.framework in Frameworks */,
+				4959F4B86044D733B4B9B7A7 /* Pods_WindyDataSDK_WindyDataSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +70,8 @@
 				1322504525B379A700F6F59D /* WindyDataSDK */,
 				1322505025B379A700F6F59D /* WindyDataSDKTests */,
 				1322504425B379A700F6F59D /* Products */,
+				3E8E766A192C56D3F017CC26 /* Pods */,
+				F4AE88E7B5DF1D8F4B54AE8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,7 @@
 		1322504525B379A700F6F59D /* WindyDataSDK */ = {
 			isa = PBXGroup;
 			children = (
+				1322505F25B37B3F00F6F59D /* Classes */,
 				1322504625B379A700F6F59D /* WindyDataSDK.h */,
 				1322504725B379A700F6F59D /* Info.plist */,
 			);
@@ -84,6 +101,35 @@
 				1322505325B379A700F6F59D /* Info.plist */,
 			);
 			path = WindyDataSDKTests;
+			sourceTree = "<group>";
+		};
+		1322505F25B37B3F00F6F59D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1322506725B37CBF00F6F59D /* CitiesModel.swift */,
+				1322507025B37D8900F6F59D /* WindyService.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3E8E766A192C56D3F017CC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB8B00D84E7E6B8D77090D /* Pods-WindyDataSDK.debug.xcconfig */,
+				E0DC565DA3B421CF18BFDC71 /* Pods-WindyDataSDK.release.xcconfig */,
+				08A03022A7621DBC0E5B4A8E /* Pods-WindyDataSDK-WindyDataSDKTests.debug.xcconfig */,
+				26839F4B3F70779F86458F32 /* Pods-WindyDataSDK-WindyDataSDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4AE88E7B5DF1D8F4B54AE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C912965F7B22683D935D2 /* Pods_WindyDataSDK.framework */,
+				75F686752FA4890A6AE6D299 /* Pods_WindyDataSDK_WindyDataSDKTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1322505725B379A700F6F59D /* Build configuration list for PBXNativeTarget "WindyDataSDK" */;
 			buildPhases = (
+				F685186E7F0C2E61EC97BAFF /* [CP] Check Pods Manifest.lock */,
 				1322503E25B379A700F6F59D /* Headers */,
 				1322503F25B379A700F6F59D /* Sources */,
 				1322504025B379A700F6F59D /* Frameworks */,
@@ -122,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1322505A25B379A700F6F59D /* Build configuration list for PBXNativeTarget "WindyDataSDKTests" */;
 			buildPhases = (
+				814D3C67555D6F8F05203E5C /* [CP] Check Pods Manifest.lock */,
 				1322504825B379A700F6F59D /* Sources */,
 				1322504925B379A700F6F59D /* Frameworks */,
 				1322504A25B379A700F6F59D /* Resources */,
+				FBBC02C635A003EC53472D59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +196,7 @@
 				TargetAttributes = {
 					1322504225B379A700F6F59D = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					1322504B25B379A700F6F59D = {
 						CreatedOnToolsVersion = 12.3;
@@ -189,11 +239,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		814D3C67555D6F8F05203E5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindyDataSDK-WindyDataSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F685186E7F0C2E61EC97BAFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindyDataSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBC02C635A003EC53472D59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WindyDataSDK-WindyDataSDKTests/Pods-WindyDataSDK-WindyDataSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WindyDataSDK-WindyDataSDKTests/Pods-WindyDataSDK-WindyDataSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WindyDataSDK-WindyDataSDKTests/Pods-WindyDataSDK-WindyDataSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1322503F25B379A700F6F59D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1322506825B37CBF00F6F59D /* CitiesModel.swift in Sources */,
+				1322507125B37D8900F6F59D /* WindyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +456,9 @@
 		};
 		1322505825B379A700F6F59D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEB8B00D84E7E6B8D77090D /* Pods-WindyDataSDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aitbelarbi.WindyDataSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +482,9 @@
 		};
 		1322505925B379A700F6F59D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DC565DA3B421CF18BFDC71 /* Pods-WindyDataSDK.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,7 +507,9 @@
 		};
 		1322505B25B379A700F6F59D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A03022A7621DBC0E5B4A8E /* Pods-WindyDataSDK-WindyDataSDKTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WindyDataSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,7 +526,9 @@
 		};
 		1322505C25B379A700F6F59D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26839F4B3F70779F86458F32 /* Pods-WindyDataSDK-WindyDataSDKTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WindyDataSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
