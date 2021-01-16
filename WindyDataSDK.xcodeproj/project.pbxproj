@@ -11,7 +11,7 @@
 		1322505225B379A700F6F59D /* WindyDataSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322505125B379A700F6F59D /* WindyDataSDKTests.swift */; };
 		1322505425B379A700F6F59D /* WindyDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1322504625B379A700F6F59D /* WindyDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1322506825B37CBF00F6F59D /* CitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322506725B37CBF00F6F59D /* CitiesModel.swift */; };
-		1322507125B37D8900F6F59D /* WindyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322507025B37D8900F6F59D /* WindyService.swift */; };
+		1322511425B3843C00F6F59D /* WindyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322507025B37D8900F6F59D /* WindyService.swift */; };
 		1B40D3784FA58BC8F810AD6D /* Pods_WindyDataSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3C912965F7B22683D935D2 /* Pods_WindyDataSDK.framework */; };
 		4959F4B86044D733B4B9B7A7 /* Pods_WindyDataSDK_WindyDataSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F686752FA4890A6AE6D299 /* Pods_WindyDataSDK_WindyDataSDKTests.framework */; };
 /* End PBXBuildFile section */
@@ -309,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1322506825B37CBF00F6F59D /* CitiesModel.swift in Sources */,
-				1322507125B37D8900F6F59D /* WindyService.swift in Sources */,
+				1322511425B3843C00F6F59D /* WindyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

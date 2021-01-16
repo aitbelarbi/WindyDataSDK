@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CitiesModel: Decodable {
+public struct CitiesModel: Decodable {
     let cities: [CityModel]?
     
     init(cities: [CityModel]) {
@@ -25,7 +25,7 @@ struct CitiesModel: Decodable {
 }
 
 
-struct CityModel: Decodable {
+public struct CityModel: Decodable {
     let name: String
     let country: String
     let countryCode: String
