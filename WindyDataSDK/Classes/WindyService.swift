@@ -12,7 +12,7 @@ public final class WindyService {
     
     private var host: String = "http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=5&offset=0&namePrefix="
 
-    func getCities(prefix: String,
+    public func getCities(prefix: String,
                    success: @escaping ((CitiesModel?) -> Void),
                    errorCompilation: (() -> Void)? = nil) {
         let url: String = "\(host)\(prefix)"
