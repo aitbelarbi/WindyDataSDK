@@ -11,7 +11,10 @@ import Alamofire
 public final class WindyService {
     
     private var host: String = "http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=5&offset=0&namePrefix="
-
+    
+    private var apiKey = "cbc6b22ef31b876b2374e0c3530eefb7"
+    public init() {}
+    
     public func getCities(prefix: String,
                    success: @escaping ((CitiesModel?) -> Void),
                    errorCompilation: (() -> Void)? = nil) {

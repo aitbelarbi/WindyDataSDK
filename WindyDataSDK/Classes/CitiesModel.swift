@@ -8,7 +8,7 @@
 import Foundation
 
 public struct CitiesModel: Decodable {
-    let cities: [CityModel]?
+    public let cities: [CityModel]?
     
     init(cities: [CityModel]) {
         self.cities = cities
@@ -26,11 +26,11 @@ public struct CitiesModel: Decodable {
 
 
 public struct CityModel: Decodable {
-    let name: String
-    let country: String
-    let countryCode: String
-    let latitude: Double
-    let longitude: Double
+    public let name: String
+    public let country: String
+    public let countryCode: String
+    public let latitude: Double
+    public let longitude: Double
     
     init(name: String,
          country: String,
